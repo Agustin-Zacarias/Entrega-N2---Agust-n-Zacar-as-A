@@ -5,61 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reseñas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
     <!--Cabecera de la pagina (igual en todos los html)-->
     <header>
-        <!--Texto de bienvenida-->
         <h1>Bienvenido a LitWorld!</h1>
-        <!--Barra de navegacion-->
-        <nav>
-            <!--Elementos de navegación-->
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="profesores.html">Profesores</a></li>
-                <li><a href="resenias.html">Reseñas</a></li>
-                <li><a href="acercade.html">Acerca De</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">LITWORLD</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="profesores.html">Profesores</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resenias.html">Reseñas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="acercade.html">Acerca De</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!--Cuerpo de la pagina-->
     <main>
-        <section>
-            <!--Listado de reseñas de cursos-->
+        <!--Seccion de reseñas-->
+        <section class="resenias-section">
+            <!--Subtitulo-->
             <h2 class="subtitulo2">Reseñas de Cursos</h2>
-            <!--Primera reseña-->
-            <article class="presenia">
-                <h3>Curso de Escritura Creativa</h3>
-                <p>Puntuación: 💛💛💛💛</p>
-                <p>El curso de Escritura Creativa superó mis expectativas. Los profesores son muy conocedores y brindan
-                    retroalimentación constructiva. ¡Altamente recomendado!</p>
-                <p class="pautor">- María G.</p>
-            </article>
-            <!--Segunda reseña-->
-            <article class="presenia">
-                <h3>Curso de Literatura Clásica</h3>
-                <p>Puntuación: 💛💛💛💛💛</p>
-                <p>Aprendí mucho sobre autores clásicos y sus obras. Las discusiones en clase fueron muy enriquecedoras.
-                    Definitivamente tomaré más cursos en LitWorld.</p>
-                <p class="pautor">- Juan P.</p>
-            </article>
-            <!--Tercera reseña-->
-            <article class="presenia">
-                <h3>Curso de Literatura Infantil</h3>
-                <p>Puntuación: 💛💛💛💛</p>
-                <p>Este curso me ayudó a entender y apreciar la literatura infantil. Los materiales proporcionados
-                    fueron excelentes y los profesores muy accesibles.</p>
-                <p class="pautor">- Laura M.</p>
-            </article>
+            <!--Grid de resenias-->
+            <div class="grid-resenias">
+                <!--Resenia 1-->
+                <article class="resenia-card">
+                    <h3>Curso de Escritura Creativa</h3>
+                    <p>Puntuación: 💛💛💛💛</p>
+                    <p>El curso de Escritura Creativa superó mis expectativas. Los profesores brindan retroalimentación
+                        excelente.</p>
+                    <p class="pautor">- María G.</p>
+                </article>
+
+                <!--Resenia 2-->
+                <article class="resenia-card">
+                    <h3>Curso de Literatura Clásica</h3>
+                    <p>Puntuación: 💛💛💛💛💛</p>
+                    <p>Aprendí mucho sobre autores clásicos. Las discusiones fueron muy enriquecedoras.</p>
+                    <p class="pautor">- Juan P.</p>
+                </article>
+                <!--Resenia 3-->
+                <article class="resenia-card">
+                    <h3>Curso de Literatura Infantil</h3>
+                    <p>Puntuación: 💛💛💛💛</p>
+                    <p>Este curso me ayudó a apreciar más la literatura infantil. Excelentes materiales.</p>
+                    <p class="pautor">- Laura M.</p>
+                </article>
+
+            </div>
         </section>
+
     </main>
     <!--Pie de pagina-->
     <footer>
         <p class="textoalpie"> © 2025 LitWorld. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
