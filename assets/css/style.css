@@ -1,0 +1,122 @@
+/* ESTILOS DE CLASE*/
+
+/* Estilo para el texto al pie de página*/
+
+.textoalpie {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el texto de Acerca De*/
+
+.aboutTexto {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+/* Estilo para el texto de Bienvenida en index*/
+
+.textoBienvenida {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para el listado de cursos y profesores*/
+
+.listado {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    list-style-type: square;
+    margin-left: 20px;
+    color: #444;
+
+}
+
+/* Estilos para el HTML de Reseñas*/
+
+.pautor {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.presenia {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    text-align: left;
+}
+
+/* Header N2 (cursos, profesores, reseñas y acercade*/
+
+.subtitulo2 {
+    font-family: 'Arial', sans-serif;
+    color: #2980b9;
+    text-align: center;
+}
+
+/* FIN DE ESTILOS DE CLASE*/
+
+/* Estilos generales */
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Estilos para el nav o navegación */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+}
+
+/* Estilos para las imágenes (de clase) */
+
+.imageninicio {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagenprofesores {
+    max-width: 100px;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+}
